@@ -137,3 +137,20 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+#---------------------------------------------------
+# --- DocVault Specific Ignores ---
+
+# .NET Backend Ignores
+# These ignore the "bin" and "obj" folders where .NET stores temporary compiled code
+backend/**/bin/
+backend/**/obj/
+
+# Angular Frontend Ignores
+# Even though node_modules is in your list above, we add these to be safe for your specific folder
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+
+# VS Code specific (Optional but helpful)
+.vscode/
