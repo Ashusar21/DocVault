@@ -447,24 +447,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aditi Sardessai\\.nuget\\packages\\": {}
+    "C:\\Users\\nimas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aditi Sardessai\\Desktop\\DocVault\\backend\\DocVault.Api\\DocVault.Api.csproj",
+      "projectUniqueName": "C:\\Users\\nimas\\OneDrive\\Desktop\\DocVault\\backend\\DocVault.Api\\DocVault.Api.csproj",
       "projectName": "DocVault.Api",
-      "projectPath": "C:\\Users\\Aditi Sardessai\\Desktop\\DocVault\\backend\\DocVault.Api\\DocVault.Api.csproj",
-      "packagesPath": "C:\\Users\\Aditi Sardessai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aditi Sardessai\\Desktop\\DocVault\\backend\\DocVault.Api\\obj\\",
+      "projectPath": "C:\\Users\\nimas\\OneDrive\\Desktop\\DocVault\\backend\\DocVault.Api\\DocVault.Api.csproj",
+      "packagesPath": "C:\\Users\\nimas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nimas\\OneDrive\\Desktop\\DocVault\\backend\\DocVault.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aditi Sardessai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\nimas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -482,7 +489,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -512,7 +520,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
