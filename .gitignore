@@ -143,8 +143,8 @@ vite.config.ts.timestamp-*
 
 # .NET Backend Ignores
 # These ignore the "bin" and "obj" folders where .NET stores temporary compiled code
-backend/**/bin/
-backend/**/obj/
+**/bin/
+**/obj/
 
 # Angular Frontend Ignores
 # Even though node_modules is in your list above, we add these to be safe for your specific folder
