@@ -1,0 +1,35 @@
+name: DocVault CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["dev", "main"]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Backend
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore & Build Backend
+        run: |
+          cd backend
+          dotnet restore
+          dotnet build --configuration Release
+
+      # Frontend
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Placeholder Frontend Check
+        run: echo "Angular app not yet committed, skipping build."
