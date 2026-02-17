@@ -1,0 +1,134 @@
+/* Background */
+body {
+  margin: 0;
+  background: #0f172a;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main container */
+.container {
+  padding: 30px 60px;
+  color: #cbd5e1;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+.user {
+  background: #1e293b;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Top bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  background: #1e293b;
+  padding: 10px 15px;
+  border-radius: 12px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+/* Upload button */
+.upload-btn {
+  background: #3b82f6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background: #2563eb;
+}
+
+/* Table */
+.table-container {
+  background: #111827;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  color: #64748b;
+  font-size: 12px;
+  text-align: left;
+}
+
+th {
+  padding: 10px 0;
+}
+
+tbody tr {
+  border-top: 1px solid #1f2937;
+}
+
+td {
+  padding: 15px 0;
+}
+
+/* Name column */
+.name-cell {
+  display: flex;
+  align-items: center;
+}
+
+.file-icon {
+  width: 30px;
+  height: 30px;
+  background: #1e293b;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+/* SAS button */
+.sas-btn {
+  background: #1e293b;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 10px;
+  color: #60a5fa;
+  cursor: pointer;
+}
+
+.sas-btn:hover {
+  background: #334155;
+}
